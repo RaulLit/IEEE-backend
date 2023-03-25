@@ -1,7 +1,7 @@
 const registerRoutes = require('./register')
 
 const initRoutes = (app) => {
-    app.use('/register', registerRoutes)
+    app.use('/api/register', registerRoutes)
 }
 
 module.exports = {initRoutes}
